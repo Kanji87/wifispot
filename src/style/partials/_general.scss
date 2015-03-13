@@ -114,6 +114,15 @@ img {
 
 .event-img {
   padding: 30px 0;
+  position: relative;
+}
+
+.event-img__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .event-title {
@@ -122,6 +131,11 @@ img {
   position: relative;
   padding-right: 35px;
   font-size: $fz-title;
+
+  a {
+    color: $black;
+    text-decoration: none;
+  }
 }
 
 .event-lead {
